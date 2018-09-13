@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<meta charset=UTF-8">
+<head>
+
+    <title></title>
+</head>
+<body>
+<h1> Game of life </h1>
+
+	 
+    <label> Vitesse <input id="speed" type="range" min="0" max="150"/> 150 </label>
+
+<br/>
+    
+<!---<div id="table">  </div>  -->
+
+<style>
+td{width:10px; 
+	height:10px;
+	background-color:white;
+}
+body{background-color: blue}
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+
+</style>
+     <button OnClick="javascript:window.location.reload()">Clear</button>
+     <input type="button" name="input" value="Play"  onclick="myFunction()" >
+    <input type="button" id="population" value="Populate"/>
+<script src="gameOfLifejs.js"></script>
+</body>
+</html>
